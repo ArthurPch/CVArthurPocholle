@@ -1,6 +1,5 @@
 body {
   line-height: 1.6;
-  background-color: #49a6e4;
   color: #333;
   box-sizing: border-box;
   margin: 0;
@@ -9,6 +8,10 @@ body {
   font-weight: 600;
   font-style: normal;
   font-size: 1.8em;
+  background-image: url(../images/cieletoile.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat; 
 }
 
 header {
@@ -38,8 +41,7 @@ header {
 .acceuil {
   text-align: center;
   padding: 50px 0;
-  background-color: #2980b9;
-  color: #fff;
+  color: #9ecdff; 
   img {
     border-radius: 50%;
     margin-bottom: 20px;
