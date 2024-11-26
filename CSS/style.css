@@ -1,0 +1,253 @@
+body {
+  line-height: 1.6;
+  background-color: #49a6e4;
+  color: #333;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Itim", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.8em;
+}
+
+header {
+  background-color: #05264a;
+  padding: 20px 0;
+  text-align: center;
+  .navigation {
+    list-style: none; 
+    padding: 0;
+    li {
+      display: inline;
+      margin: 0 20px;
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+      &:hover {
+        color: #ffc107;
+      }
+    }
+  }
+}
+
+
+.acceuil {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #2980b9;
+  color: #fff;
+  img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #ecf0f1;
+  }
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+}
+
+.meJoindre {
+  margin-top: 20px;
+  a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+  }
+  img {
+    transition: transform 0.3s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.educationCompetences {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.education {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.scolaire h2 {
+  margin-bottom: 20px;
+  color: #007bff;
+  border-bottom: solid;
+}
+
+.ecole {
+  list-style: none;
+  padding: 0;
+  li {
+    margin-bottom: 15px;
+  }
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+}
+
+.competences {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+    border-bottom: solid;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+}
+
+.circle {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  span {
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+}
+
+
+.circle-80 {
+  background: conic-gradient(#2ecc71 80%, #ddd 80%);
+}
+
+.circle-60 {
+  background: conic-gradient(#f39c12 60%, #ddd 60%);
+}
+
+.circle-65 {
+  background: conic-gradient(#3498db 65%, #ddd 65%);
+}
+
+.circle-75 {
+  background: conic-gradient(#e74c3c 70%, #ddd 70%);
+}
+
+.experienceInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.experiences {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+    border-bottom: solid;
+  }
+  h3 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+    color: black;
+  }
+  ul {
+    font-style: italic;
+    list-style: none;
+    padding: 0;
+  }
+  li {
+    margin: 5px 0;
+  }
+}
+
+.information {
+  flex: 1;
+  min-width: 300px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  h2 {
+    margin: 0 0 10px 0;
+    color: #007bff;
+    border-bottom: solid;
+  }
+  p {
+    margin: 15px 0;
+  }
+}
+
+.contact {
+  text-align: center;
+  margin-top: 80px;
+  .boutonContact {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 5px;
+    &:hover {
+      transform: scale(1.1);
+      background-color: #0056b3;
+    }
+  }
+}
+
+
+
+footer {
+  text-align: center;
+  background-color: #053158;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+@media all and (max-width: 480px){
+  .navigation{
+    display: flex;
+    flex-direction: column;
+  }
+}
